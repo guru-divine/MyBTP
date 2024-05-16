@@ -13,5 +13,9 @@ app.secret_key = "harshu"
 def home():
     return render_template("index.html")
 
+@app.route("/user-profile")
+def user_profile():
+    return render_template("users-profile.html")
+
 
 app.run(debug=True)
