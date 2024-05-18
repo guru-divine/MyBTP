@@ -1241,3 +1241,45 @@ h6 {
   border-radius: 2px;
   align-items: center;
 }
+
+.margin-3rem {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.div-center {
+  display: flex;
+  justify-content: center;
+  color: #012970;
+  margin: 0.2rem 0;
+}
+
+.card-body-size {
+  margin: 0.2rem;
+  font-size: 0.8rem;
+  display: flex;
+}
+
+.card-body-pad {
+  padding: 10px 15px;
+}
+
+.card-left {
+  flex: 1;
+  color: gray;
+}
+
+.card-right {
+  flex: 3;
+  color: rgb(62, 61, 61);
+}
+
+.know-more-btn {
+  font-size: small;
+  background-color: #012970;
+  color: whitesmoke;
+  padding: 0.1rem 0.2rem;
+  border: none;
+  border-radius: 3px;
+  margin-top: 0.2rem;
+}
