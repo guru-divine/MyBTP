@@ -1231,3 +1231,13 @@ h6 {
   font-size: 13px;
   color: #012970;
 }
+
+.apply-btn {
+  margin-top: 2rem;
+  background-color: #4154f1;
+  color: whitesmoke;
+  padding: 2px 10px;
+  border: none;
+  border-radius: 2px;
+  align-items: center;
+}
