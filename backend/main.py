@@ -37,7 +37,21 @@ def notification():
 def setting():
     return render_template("users-profile.html")
 
+@app.route("/cs")
+def cs():
+    return render_template("cs.html")
 
+@app.route("/cs-001")
+def cs001():
+    return render_template("cs-001.html")
+
+@app.route("/student")
+def student():
+    return render_template("student.html")
+
+@app.route("/student_list")
+def student_list():
+    return render_template("student_list.html")
 
 # Catch-all route for any other URL
 @app.route("/<path:path>")
