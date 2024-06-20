@@ -613,10 +613,8 @@ h6 {
   background-color: #fff;
 }
 
-@media (max-width: 1199px) {
-  .sidebar {
-    left: -300px;
-  }
+.sidebar {
+  left: -300px;
 }
 
 .sidebar::-webkit-scrollbar {
@@ -629,31 +627,11 @@ h6 {
   background-color: #aab7cf;
 }
 
-@media (min-width: 1200px) {
-
-  #main,
-  #footer {
-    margin-left: 300px;
-  }
+.toggle-sidebar .sidebar {
+  left: 0;
 }
 
-@media (max-width: 1199px) {
-  .toggle-sidebar .sidebar {
-    left: 0;
-  }
-}
 
-@media (min-width: 1200px) {
-
-  .toggle-sidebar #main,
-  .toggle-sidebar #footer {
-    margin-left: 0;
-  }
-
-  .toggle-sidebar .sidebar {
-    left: -300px;
-  }
-}
 
 .sidebar-nav {
   padding: 0;
@@ -1256,6 +1234,13 @@ h6 {
   margin-right: 2rem;
 }
 
+@media (max-width: 1199px) {
+  .margin-3rem {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
 .div-center {
   display: flex;
   justify-content: center;
@@ -1300,7 +1285,7 @@ h6 {
   padding: 0.1rem 0.2rem;
   border: none;
   border-radius: 3px;
-  margin-top: 0.2rem;
+  margin-top: 0.7rem;
 }
 
 .close-btn {
@@ -1313,7 +1298,7 @@ h6 {
   color: white;
   font-size: 12px;
   line-height: 18px;
-  text-align: center;
+  text-align: center; 
   border-radius: 100%;
   cursor: pointer;
   display: flex;
